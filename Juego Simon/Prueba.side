@@ -1,0 +1,88 @@
+{
+  "id": "7e4a95ae-d65b-40c3-ba05-468db1914bc4",
+  "version": "2.0",
+  "name": "Prueba",
+  "url": "https://www.personal.com.ar",
+  "tests": [{
+    "id": "a453e977-65c4-4d56-ab2d-1abdace6a34c",
+    "name": "Test Smart TV",
+    "commands": [{
+      "id": "622c07bc-e1ba-464e-bc07-517e8fc25d37",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1b25ec1-39a4-485d-b16f-7bc19fd8b3ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "626x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb6cd75c-8fe5-4727-a350-4ab6d08959be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/teco-header/div/div/div/div/div/teco-hamburger/nav/teco-button/teco-icon/i", "xpath:idRelative"],
+        ["xpath=//teco-button/teco-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49605ec0-4748-4b20-a6e5-b23cc7925a67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger-level-first:nth-child(3) > .link",
+      "targets": [
+        ["css=.hamburger-level-first:nth-child(3) > .link", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/teco-header/div/div/div/div/div/teco-hamburger/nav/div/div/div/teco-hamburger-item[2]/div", "xpath:idRelative"],
+        ["xpath=//teco-hamburger-item[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4500bc-d086-42e0-bcf4-211c715721a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border > .hydrated:nth-child(3) a > p",
+      "targets": [
+        ["css=.border > .hydrated:nth-child(3) a > p", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/div/div/div[2]/div/teco-header/div/div/div/div/div/teco-hamburger/nav/div/div/div/teco-hamburger-item[2]/div[2]/teco-hamburger-item[3]/div/a/p", "xpath:idRelative"],
+        ["xpath=//teco-hamburger-item[3]/div/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tv y Smart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76dc1d98-9136-4733-883e-deeeea63995c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.four:nth-child(2) .image-product-helper > div > img",
+      "targets": [
+        ["css=.four:nth-child(2) .image-product-helper > div > img", "css:finder"],
+        ["xpath=//img[@alt='Smart TV 50\" Samsung 4K AU7000']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/a/div/figure/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/figure/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc6c17e-a7ac-4d1a-b4b4-6a572f79c71b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "031c4755-6dbf-41d9-8e6a-f65f370bc3ce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a453e977-65c4-4d56-ab2d-1abdace6a34c"]
+  }],
+  "urls": ["https://www.personal.com.ar/"],
+  "plugins": []
+}
