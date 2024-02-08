@@ -1,1 +1,1 @@
-## Ejercicios realizados en la materia Programación 2 de la Licenciatura en Informática
+Ejercicios realizados para aprender sobre Java y los pilares POO.
